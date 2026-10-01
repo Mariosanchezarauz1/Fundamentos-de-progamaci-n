@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+float cubo(float r);
+//prototipo
+int main()
+{
+    float numero;
+    cout<<"Ingrese un numero: ";
+    cin>>numero;
+    cout<<"El resultado de cubo de r es: "<<numero<<"es: "<<'\n'<<cubo(numero);
+    
+
+    return 0;
+}
+float cubo(float r)  //declaracion de la funcion
+{
+    return r*r*r;
+}
